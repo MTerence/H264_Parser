@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "h264_parser.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    simplest_h264_parser("sintel.h264");
 }
 
 
